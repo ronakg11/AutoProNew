@@ -35,6 +35,7 @@ public class TestBase {
 		// the maven command "mvn test -Dbrowser=chrome"
 		String browserName = System.getProperty("browser");
 		String driverPath = System.getProperty("user.dir") + "/drivers/";
+		browserName = prop.getProperty("browser");
 
 		switch (browserName) {
 		case "chrome":
