@@ -28,7 +28,11 @@ public class HomePageAndLoginTest extends TestBase {
 	}
 
 	@Test(dataProvider = "sendCredentials")
+<<<<<<< HEAD
 	public void Login(String usrNm, String pwd, String usrType) throws IOException, InterruptedException {
+=======
+	public void LoginTest(String usrNm, String pwd, String usrType) throws IOException, InterruptedException {
+>>>>>>> develop
 		driver.get(prop.getProperty("qaUrl"));
 		log.info("URL opened");
 

@@ -6,6 +6,7 @@
   </listeners>
   <test thread-count="5" parallel="tests" name="Test2(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="testCases.AssertTitleAndNavigationPaneTest">
         <methods>
           <include name="initialize"/>
@@ -21,9 +22,19 @@
         <methods>
           <include name="tearDown"/>
           <include name="basePageNavigation" invocation-numbers="0 1"/>
+=======
+      <class name="commentsProject.Oodaymy">
+        <methods>
+>>>>>>> develop
           <include name="initialize"/>
+          <include name="basePageNavigation"/>
+          <include name="tearDown"/>
         </methods>
+<<<<<<< HEAD
       </class> <!-- testCases.HomePageAndLoginTest -->
+=======
+      </class> <!-- commentsProject.Oodaymy -->
+>>>>>>> develop
     </classes>
   </test> <!-- Test1(failed) -->
 </suite> <!-- Failed suite [Suite] -->

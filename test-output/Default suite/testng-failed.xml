@@ -3,6 +3,7 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="testCases.AssertTitleAndNavigationPaneTest">
         <methods>
           <include name="initialize"/>
@@ -10,6 +11,15 @@
           <include name="basePageNavigation"/>
         </methods>
       </class> <!-- testCases.AssertTitleAndNavigationPaneTest -->
+=======
+      <class name="commentsProject.Oodaymy">
+        <methods>
+          <include name="initialize"/>
+          <include name="basePageNavigation"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- commentsProject.Oodaymy -->
+>>>>>>> develop
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
