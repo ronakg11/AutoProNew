@@ -1,0 +1,49 @@
+15:00:14.333 [main] INFO  resources.WriteExcel - Adding value 11. Deserialization using POJO classes with Rest Assuredto (row, col) : (38, 1)
+15:00:14.335 [main] INFO  resources.WriteExcel - Adding value 60. What is Serialization and Deserialization in Rest Assuredto (row, col) : (38, 2)
+15:00:14.335 [main] INFO  resources.WriteExcel - Adding value 0:24to (row, col) : (38, 3)
+15:00:14.335 [main] INFO  resources.WriteExcel - Adding value *Information: Using POJO (Plain Old Java Object) classes we can Serialize / Deserialize JSON and XML requests / responses.to (row, col) : (38, 4)
+15:00:14.343 [main] INFO  oodaymy.VishayPage - Comments count found: 43
+15:00:14.458 [main] INFO  resources.WriteExcel - Sheet name: REST Assured
+15:00:14.459 [main] INFO  resources.WriteExcel - Current new row: 39
+15:00:14.459 [main] INFO  resources.WriteExcel - Adding value 39to (row, col) : (39, 0)
+15:00:14.459 [main] INFO  resources.WriteExcel - Adding value 11. Deserialization using POJO classes with Rest Assuredto (row, col) : (39, 1)
+15:00:14.459 [main] INFO  resources.WriteExcel - Adding value 61. Libraries needed to support Serialization in Rest Assuredto (row, col) : (39, 2)
+15:00:14.460 [main] INFO  resources.WriteExcel - Adding value 8:05to (row, col) : (39, 3)
+15:00:14.460 [main] INFO  resources.WriteExcel - Adding value *Information: Serialization / Deserialization requires importing the following libraries in your project -
+for JSON - Jackson, Jackson2 and Gson or Johnzon
+for XML - JAXB
+Maven Repositories: Jackson Databind, Jackson Annotations, Jackson Core (these 3 libraries should have the same versions) and Gsonto (row, col) : (39, 4)
+15:00:14.473 [main] INFO  oodaymy.VishayPage - Comments count found: 43
+15:00:14.600 [main] INFO  resources.WriteExcel - Sheet name: REST Assured
+15:00:14.600 [main] INFO  resources.WriteExcel - Current new row: 40
+15:00:14.600 [main] INFO  resources.WriteExcel - Adding value 40to (row, col) : (40, 0)
+15:00:14.601 [main] INFO  resources.WriteExcel - Adding value 11. Deserialization using POJO classes with Rest Assuredto (row, col) : (40, 1)
+15:00:14.601 [main] INFO  resources.WriteExcel - Adding value 64. End to end Automation examples using POJO Deserializationto (row, col) : (40, 2)
+15:00:14.601 [main] INFO  resources.WriteExcel - Adding value 3:24to (row, col) : (40, 3)
+15:00:14.601 [main] INFO  resources.WriteExcel - Adding value *Information: Capturing a JSON response in a Deserialized way using a POJO class is shown below.
+Additionally, note that, if the response header value is not "application/json", then REST Assured should understand how the response should be captured i.e. in what format, hence adding .expect().defaultParser(Parser.JSON) is necessary. If the response header "Content-Type" value is "application/json" then adding this step is not required.
+
+RSAJson responsejson = given()
+.queryParams("access_token", accessToken)
+.when()
+.expect().defaultParser(Parser.JSON) // not reqd if response header is "application/json"
+.get("https://rahulshettyacademy.com/getCourse.php")
+.as(RSAJson.class);to (row, col) : (40, 4)
+15:00:14.610 [main] INFO  oodaymy.VishayPage - Comments count found: 43
+15:00:14.748 [main] INFO  resources.WriteExcel - Sheet name: REST Assured
+15:00:14.748 [main] INFO  resources.WriteExcel - Current new row: 41
+15:00:14.748 [main] INFO  resources.WriteExcel - Adding value 41to (row, col) : (41, 0)
+15:00:14.748 [main] INFO  resources.WriteExcel - Adding value 12. Serialization of Input Payload using Google Maps API Exampleto (row, col) : (41, 1)
+15:00:14.748 [main] INFO  resources.WriteExcel - Adding value 71. Complete End to end Test case with Serialization Implementation Rec 12-19-19 34to (row, col) : (41, 2)
+15:00:14.749 [main] INFO  resources.WriteExcel - Adding value 5:21to (row, col) : (41, 3)
+15:00:14.749 [main] INFO  resources.WriteExcel - Adding value *Marker: Setting values for a looped JSONto (row, col) : (41, 4)
+15:00:14.757 [main] INFO  oodaymy.VishayPage - Comments count found: 43
+15:00:14.870 [main] INFO  resources.WriteExcel - Sheet name: REST Assured
+15:00:14.871 [main] INFO  resources.WriteExcel - Current new row: 42
+15:00:14.871 [main] INFO  resources.WriteExcel - Adding value 42to (row, col) : (42, 0)
+15:00:14.871 [main] INFO  resources.WriteExcel - Adding value 12. Serialization of Input Payload using Google Maps API Exampleto (row, col) : (42, 1)
+15:00:14.871 [main] INFO  resources.WriteExcel - Adding value 71. Complete End to end Test case with Serialization Implementation Rec 12-19-19 34to (row, col) : (42, 2)
+15:00:14.871 [main] INFO  resources.WriteExcel - Adding value 0:09to (row, col) : (42, 3)
+15:00:14.871 [main] INFO  resources.WriteExcel - Adding value *Information: Creating a JSON using Serialization using the setter methods of the POJO class and passing POJO class object to the body.to (row, col) : (42, 4)
+15:00:14.879 [main] INFO  oodaymy.VishayPage - Comments count found: 43
+15:00:15.040 [main] INFO  resources.WriteExcel - Sheet name: REST Assured

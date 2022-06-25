@@ -1,0 +1,54 @@
+15:00:02.953 [main] INFO  oodaymy.VishayPage - Comments count found: 39
+15:00:03.060 [main] INFO  resources.WriteExcel - Sheet name: Selenium
+15:00:03.060 [main] INFO  resources.WriteExcel - Current new row: 38
+15:00:03.061 [main] INFO  resources.WriteExcel - Adding value 38to (row, col) : (38, 0)
+15:00:03.061 [main] INFO  resources.WriteExcel - Adding value 26. Framework building from scratch- Real time Projectto (row, col) : (38, 1)
+15:00:03.061 [main] INFO  resources.WriteExcel - Adding value 206. How to make Framework Thread safe for Parallel executionto (row, col) : (38, 2)
+15:00:03.062 [main] INFO  resources.WriteExcel - Adding value 2:56to (row, col) : (38, 3)
+15:00:03.064 [main] INFO  resources.WriteExcel - Adding value *Interview Question: Can you talk about some challenges you faced while designing the automation framework?
+(continued..)
+Solution: Create an object "testThread" of the Java ThreadLocal<ExtentTest> class and store the extent test object in it using "testThread.set(test)" method. Then use "testThread.get()" method instead of the extent test object to log the test status.to (row, col) : (38, 4)
+15:00:03.089 [main] INFO  oodaymy.VishayPage - Comments count found: 39
+15:00:03.205 [main] INFO  resources.WriteExcel - Sheet name: Selenium
+15:00:03.205 [main] INFO  resources.WriteExcel - Current new row: 39
+15:00:03.205 [main] INFO  resources.WriteExcel - Adding value 39to (row, col) : (39, 0)
+15:00:03.206 [main] INFO  resources.WriteExcel - Adding value 26. Framework building from scratch- Real time Projectto (row, col) : (39, 1)
+15:00:03.208 [main] INFO  resources.WriteExcel - Adding value 206. How to make Framework Thread safe for Parallel executionto (row, col) : (39, 2)
+15:00:03.209 [main] INFO  resources.WriteExcel - Adding value 0:16to (row, col) : (39, 3)
+15:00:03.209 [main] INFO  resources.WriteExcel - Adding value *Interview Question: Can you talk about some challenges you faced while designing the automation framework?
+Answer: The extent test object initialized by the first test case was being overridden by other tests running in parallel, and when the first test execution was complete and it tried to log its status using the extent test object (thinking the object belongs to itself), since the object was now tied up to another test, the first test's status was being reported against the test that was now accessing the extent test object. This only happened when tests were run in parallel.
+
+e.g.
+1. Tests 1, 2 & 3 are running in parallel.
+2. Test 1 completes execution, fails for some reason and on completion, goes to the onTestFailure() method to log its test status.
+3. However, the extent test object that it thinks it initialized for itself, has been overridden by test 2 and then test 3 (or test 3 and then test 2).
+4. So, unknowingly, test 1 logs the failed status against test 3 (or test 2).to (row, col) : (39, 4)
+15:00:03.218 [main] INFO  oodaymy.VishayPage - Comments count found: 39
+15:00:04.133 [main] INFO  commentsProject.OodaymyNew - URL opened
+15:00:04.134 [main] INFO  commentsProject.OodaymyNew - Course 2 - Object created
+15:00:05.734 [main] INFO  oodaymy.VishayPage - Comments count found: 43
+15:00:06.028 [main] INFO  resources.WriteExcel - Sheet name: REST Assured
+15:00:06.028 [main] INFO  resources.WriteExcel - Current new row: 1
+15:00:06.028 [main] INFO  resources.WriteExcel - Adding value 1to (row, col) : (1, 0)
+15:00:06.028 [main] INFO  resources.WriteExcel - Adding value 7. Handling Dynamic Json Payloads with Parameterizationto (row, col) : (1, 1)
+15:00:06.029 [main] INFO  resources.WriteExcel - Adding value 35. Example on Parameterization of API Tests with multiple data setsto (row, col) : (1, 2)
+15:00:06.030 [main] INFO  resources.WriteExcel - Adding value 3:32to (row, col) : (1, 3)
+15:00:06.030 [main] INFO  resources.WriteExcel - Adding value *Information: Typical Request / Response -
+RestAssured.baseURI = "<server URL e.g. http://rahulshettyacademy.com>";
+Response resp = given()
+.header("Content-Type", "application/json")
+.body("<payload-json>")
+.when()
+.requestType("<resource>") // requestType can be post() or get() or put() or delete()
+.then()
+.assertThat().statusCode(200)
+.extract().response(); // append .asString() if resp type is String instead of Response
+JsonPath js = new JsonPath(resp.toString());
+String id = js.get("ID");to (row, col) : (1, 4)
+15:00:06.093 [main] INFO  oodaymy.VishayPage - Comments count found: 43
+15:00:06.412 [main] INFO  resources.WriteExcel - Sheet name: REST Assured
+15:00:06.412 [main] INFO  resources.WriteExcel - Current new row: 2
+15:00:06.412 [main] INFO  resources.WriteExcel - Adding value 2to (row, col) : (2, 0)
+15:00:06.412 [main] INFO  resources.WriteExcel - Adding value 7. Handling Dynamic Json Payloads with Parameterizationto (row, col) : (2, 1)
+15:00:06.413 [main] INFO  resources.WriteExcel - Adding value 37. How to handle with static json payloadsto (row, col) : (2, 2)
+15:00:06.413 [main] INFO  resources.WriteExcel - Adding value 4:22to (row, col) : (2, 3)

@@ -1,0 +1,14 @@
+15:00:15.040 [main] INFO  resources.WriteExcel - Current new row: 43
+15:00:15.042 [main] INFO  resources.WriteExcel - Adding value 43to (row, col) : (43, 0)
+15:00:15.043 [main] INFO  resources.WriteExcel - Adding value 13. Understand Request and Response Spec Builders in Rest Assuredto (row, col) : (43, 1)
+15:00:15.043 [main] INFO  resources.WriteExcel - Adding value 73. Significance of Spec Builders in Rest Assured Rec 12-19-19 5(builderDoc)to (row, col) : (43, 2)
+15:00:15.045 [main] INFO  resources.WriteExcel - Adding value 4:28to (row, col) : (43, 3)
+15:00:15.047 [main] INFO  resources.WriteExcel - Adding value *Information: Setting up parameters using RequestSpecBuilder -
+e.g.
+RestAssured.baseURI = "XXXX" becomes .setBaseUri("XXXX")
+.queryParam("key", "qaclickacademy") becomes .addQueryParam("key", "qaclickacademy")
+.header("Content-Type", "application/json") becomes .setContentType(ContentType.JSON)to (row, col) : (43, 4)
+15:00:15.064 [main] INFO  oodaymy.VishayPage - Comments count found: 43
+15:00:17.079 [main] INFO  commentsProject.OodaymyNew - Driver closed
+15:00:17.428 [main] INFO  resources.WriteExcel - Workbook closed
+15:00:17.428 [main] INFO  commentsProject.OodaymyNew - Workbook closed

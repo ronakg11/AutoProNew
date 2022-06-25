@@ -1,0 +1,42 @@
+15:00:13.732 [main] INFO  oodaymy.VishayPage - Comments count found: 43
+15:00:13.850 [main] INFO  resources.WriteExcel - Sheet name: REST Assured
+15:00:13.850 [main] INFO  resources.WriteExcel - Current new row: 34
+15:00:13.850 [main] INFO  resources.WriteExcel - Adding value 34to (row, col) : (34, 0)
+15:00:13.851 [main] INFO  resources.WriteExcel - Adding value 10. Rest Assured Automation for OAuth 2.0 Authorization codeto (row, col) : (34, 1)
+15:00:13.851 [main] INFO  resources.WriteExcel - Adding value 57. Formatting URL String to retrieve code using java methodsto (row, col) : (34, 2)
+15:00:13.851 [main] INFO  resources.WriteExcel - Adding value 6:12to (row, col) : (34, 3)
+15:00:13.852 [main] INFO  resources.WriteExcel - Adding value *Update: Google does not allow automation controlled login anymore, and hence the step 1 in the REST Assured automation using Selenium code needs to change to have the tester manually login to Google and grab the response URL. Further steps stay intact.to (row, col) : (34, 4)
+15:00:13.859 [main] INFO  oodaymy.VishayPage - Comments count found: 43
+15:00:13.953 [main] INFO  resources.WriteExcel - Sheet name: REST Assured
+15:00:13.953 [main] INFO  resources.WriteExcel - Current new row: 35
+15:00:13.954 [main] INFO  resources.WriteExcel - Adding value 35to (row, col) : (35, 0)
+15:00:13.954 [main] INFO  resources.WriteExcel - Adding value 10. Rest Assured Automation for OAuth 2.0 Authorization codeto (row, col) : (35, 1)
+15:00:13.954 [main] INFO  resources.WriteExcel - Adding value 57. Formatting URL String to retrieve code using java methodsto (row, col) : (35, 2)
+15:00:13.954 [main] INFO  resources.WriteExcel - Adding value 4:11to (row, col) : (35, 3)
+15:00:13.955 [main] INFO  resources.WriteExcel - Adding value *Information: REST Assured does not accept any special characters and performs encoding to convert those to numerical values, hence the authorization code we received in step 1, which may have special characters, may change while sending through step 2. To avoid this, use method - urlEncodingEnabled(false) after the given() method to have REST Assured not encode any special characters.to (row, col) : (35, 4)
+15:00:13.964 [main] INFO  oodaymy.VishayPage - Comments count found: 43
+15:00:14.085 [main] INFO  resources.WriteExcel - Sheet name: REST Assured
+15:00:14.085 [main] INFO  resources.WriteExcel - Current new row: 36
+15:00:14.085 [main] INFO  resources.WriteExcel - Adding value 36to (row, col) : (36, 0)
+15:00:14.085 [main] INFO  resources.WriteExcel - Adding value 10. Rest Assured Automation for OAuth 2.0 Authorization codeto (row, col) : (36, 1)
+15:00:14.086 [main] INFO  resources.WriteExcel - Adding value 59. How to deal with Client Credentials Grant type for OAuth flowto (row, col) : (36, 2)
+15:00:14.086 [main] INFO  resources.WriteExcel - Adding value 4:27to (row, col) : (36, 3)
+15:00:14.086 [main] INFO  resources.WriteExcel - Adding value *Information: How to automation grant type = client credentials for OAuth 2.0?
+The client application requests the 3rd party server its own data, hence no human login and authorization code return is required. The only parameters required in a single step are:
+access token URL - E.g. https://www.googleapis.com/oauth2/v4/token
+client_id - An id assigned to the client by Google, to identify the client uniquely
+client_secret - Like the client_id's password, to authorize the client on Google's server
+scope - Targets specific resource owner endpoint; each unique endpoint denotes specific details the client requires from Google (decided when the client first registers with Google, and depending on what the client needs, Google says - use XX scope endpoint)
+grant_type - Static value "client_credentials" denoting the grant type used (this value should be in lower case and words separated by an underscore "_" instead of a space)to (row, col) : (36, 4)
+15:00:14.097 [main] INFO  oodaymy.VishayPage - Comments count found: 43
+15:00:14.225 [main] INFO  resources.WriteExcel - Sheet name: REST Assured
+15:00:14.225 [main] INFO  resources.WriteExcel - Current new row: 37
+15:00:14.225 [main] INFO  resources.WriteExcel - Adding value 37to (row, col) : (37, 0)
+15:00:14.225 [main] INFO  resources.WriteExcel - Adding value 10. Rest Assured Automation for OAuth 2.0 Authorization codeto (row, col) : (37, 1)
+15:00:14.226 [main] INFO  resources.WriteExcel - Adding value 59. How to deal with Client Credentials Grant type for OAuth flowto (row, col) : (37, 2)
+15:00:14.226 [main] INFO  resources.WriteExcel - Adding value 1:59to (row, col) : (37, 3)
+15:00:14.226 [main] INFO  resources.WriteExcel - Adding value *Marker: OAuth 2.0 grant type - Client Credentials explanation.to (row, col) : (37, 4)
+15:00:14.240 [main] INFO  oodaymy.VishayPage - Comments count found: 43
+15:00:14.333 [main] INFO  resources.WriteExcel - Sheet name: REST Assured
+15:00:14.333 [main] INFO  resources.WriteExcel - Current new row: 38
+15:00:14.333 [main] INFO  resources.WriteExcel - Adding value 38to (row, col) : (38, 0)

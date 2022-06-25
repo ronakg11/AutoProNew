@@ -1,0 +1,49 @@
+14:59:58.310 [main] INFO  resources.WriteExcel - Adding value 138. Usage of Groups functionality in TestNGto (row, col) : (6, 2)
+14:59:58.315 [main] INFO  resources.WriteExcel - Adding value 13:49to (row, col) : (6, 3)
+14:59:58.316 [main] INFO  resources.WriteExcel - Adding value *Interview Question: TestNG Groups e.g. I have 100 test cases but want to run only specific 40, how can I do that? Answer: Assign the test cases to a group and run only that group from TestNG XML.to (row, col) : (6, 4)
+14:59:58.331 [main] INFO  oodaymy.VishayPage - Comments count found: 39
+14:59:58.471 [main] INFO  resources.WriteExcel - Sheet name: Selenium
+14:59:58.471 [main] INFO  resources.WriteExcel - Current new row: 7
+14:59:58.471 [main] INFO  resources.WriteExcel - Adding value 7to (row, col) : (7, 0)
+14:59:58.472 [main] INFO  resources.WriteExcel - Adding value 17. Framework Part -1 - TestNGto (row, col) : (7, 1)
+14:59:58.473 [main] INFO  resources.WriteExcel - Adding value 138. Usage of Groups functionality in TestNGto (row, col) : (7, 2)
+14:59:58.474 [main] INFO  resources.WriteExcel - Adding value 7:16to (row, col) : (7, 3)
+14:59:58.475 [main] INFO  resources.WriteExcel - Adding value *Information: TestNG Groupsto (row, col) : (7, 4)
+14:59:58.493 [main] INFO  oodaymy.VishayPage - Comments count found: 39
+14:59:58.751 [main] INFO  resources.WriteExcel - Sheet name: Selenium
+14:59:58.751 [main] INFO  resources.WriteExcel - Current new row: 8
+14:59:58.751 [main] INFO  resources.WriteExcel - Adding value 8to (row, col) : (8, 0)
+14:59:58.752 [main] INFO  resources.WriteExcel - Adding value 17. Framework Part -1 - TestNGto (row, col) : (8, 1)
+14:59:58.755 [main] INFO  resources.WriteExcel - Adding value 139. Annotations helper attributes with examplesto (row, col) : (8, 2)
+14:59:58.756 [main] INFO  resources.WriteExcel - Adding value 7:42to (row, col) : (8, 3)
+14:59:58.757 [main] INFO  resources.WriteExcel - Adding value *Interview Question: If a particular flow in my application isn't working, how can I stop running test cases around that flow? Answer: I will use the following TestNG annotation helper attribute @Test(enabled = false)to (row, col) : (8, 4)
+14:59:58.768 [main] INFO  oodaymy.VishayPage - Comments count found: 39
+14:59:58.879 [main] INFO  resources.WriteExcel - Sheet name: Selenium
+14:59:58.879 [main] INFO  resources.WriteExcel - Current new row: 9
+14:59:58.880 [main] INFO  resources.WriteExcel - Adding value 9to (row, col) : (9, 0)
+14:59:58.881 [main] INFO  resources.WriteExcel - Adding value 17. Framework Part -1 - TestNGto (row, col) : (9, 1)
+14:59:58.881 [main] INFO  resources.WriteExcel - Adding value 139. Annotations helper attributes with examplesto (row, col) : (9, 2)
+14:59:58.882 [main] INFO  resources.WriteExcel - Adding value 4:05to (row, col) : (9, 3)
+14:59:58.883 [main] INFO  resources.WriteExcel - Adding value *Information: TestNG dependsOnMethodsto (row, col) : (9, 4)
+14:59:58.895 [main] INFO  oodaymy.VishayPage - Comments count found: 39
+14:59:59.024 [main] INFO  resources.WriteExcel - Sheet name: Selenium
+14:59:59.024 [main] INFO  resources.WriteExcel - Current new row: 10
+14:59:59.024 [main] INFO  resources.WriteExcel - Adding value 10to (row, col) : (10, 0)
+14:59:59.025 [main] INFO  resources.WriteExcel - Adding value 17. Framework Part -1 - TestNGto (row, col) : (10, 1)
+14:59:59.025 [main] INFO  resources.WriteExcel - Adding value 143. Listeners Interface in TestNG frameworkto (row, col) : (10, 2)
+14:59:59.026 [main] INFO  resources.WriteExcel - Adding value 9:59to (row, col) : (10, 3)
+14:59:59.026 [main] INFO  resources.WriteExcel - Adding value *Information: Adding Listeners class info to the TestNG XMLto (row, col) : (10, 4)
+14:59:59.034 [main] INFO  oodaymy.VishayPage - Comments count found: 39
+14:59:59.179 [main] INFO  resources.WriteExcel - Sheet name: Selenium
+14:59:59.179 [main] INFO  resources.WriteExcel - Current new row: 11
+14:59:59.179 [main] INFO  resources.WriteExcel - Adding value 11to (row, col) : (11, 0)
+14:59:59.180 [main] INFO  resources.WriteExcel - Adding value 17. Framework Part -1 - TestNGto (row, col) : (11, 1)
+14:59:59.181 [main] INFO  resources.WriteExcel - Adding value 143. Listeners Interface in TestNG frameworkto (row, col) : (11, 2)
+14:59:59.182 [main] INFO  resources.WriteExcel - Adding value 5:34to (row, col) : (11, 3)
+14:59:59.183 [main] INFO  resources.WriteExcel - Adding value *Information: Listeners class implements ITestListener interface and as a result implements  ITestListener's ready-method skeletons.to (row, col) : (11, 4)
+14:59:59.194 [main] INFO  oodaymy.VishayPage - Comments count found: 39
+14:59:59.299 [main] INFO  resources.WriteExcel - Sheet name: Selenium
+14:59:59.300 [main] INFO  resources.WriteExcel - Current new row: 12
+14:59:59.300 [main] INFO  resources.WriteExcel - Adding value 12to (row, col) : (12, 0)
+14:59:59.301 [main] INFO  resources.WriteExcel - Adding value 17. Framework Part -1 - TestNGto (row, col) : (12, 1)
+14:59:59.302 [main] INFO  resources.WriteExcel - Adding value 144. Running Tests in parallel and generating Reportsto (row, col) : (12, 2)

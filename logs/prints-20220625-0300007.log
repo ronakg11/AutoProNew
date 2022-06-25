@@ -1,0 +1,79 @@
+15:00:06.414 [main] INFO  resources.WriteExcel - Adding value *Information: How to get a json body in string format from a file?
+Answer:
+public static String GetStringFromFile(String path) throws IOException {
+return new String(Files.readAllBytes(Paths.get(path)));
+}to (row, col) : (2, 4)
+15:00:06.438 [main] INFO  oodaymy.VishayPage - Comments count found: 43
+15:00:06.600 [main] INFO  resources.WriteExcel - Sheet name: REST Assured
+15:00:06.600 [main] INFO  resources.WriteExcel - Current new row: 3
+15:00:06.600 [main] INFO  resources.WriteExcel - Adding value 3to (row, col) : (3, 0)
+15:00:06.601 [main] INFO  resources.WriteExcel - Adding value 8. Real world Example-Automating Jira API'sto (row, col) : (3, 1)
+15:00:06.602 [main] INFO  resources.WriteExcel - Adding value 40. Cookie Authentication API for Jira requeststo (row, col) : (3, 2)
+15:00:06.602 [main] INFO  resources.WriteExcel - Adding value 13:28to (row, col) : (3, 3)
+15:00:06.602 [main] INFO  resources.WriteExcel - Adding value *Marker: Jira - Basic Authenticationto (row, col) : (3, 4)
+15:00:06.617 [main] INFO  oodaymy.VishayPage - Comments count found: 43
+15:00:06.726 [main] INFO  resources.WriteExcel - Sheet name: REST Assured
+15:00:06.726 [main] INFO  resources.WriteExcel - Current new row: 4
+15:00:06.726 [main] INFO  resources.WriteExcel - Adding value 4to (row, col) : (4, 0)
+15:00:06.726 [main] INFO  resources.WriteExcel - Adding value 8. Real world Example-Automating Jira API'sto (row, col) : (4, 1)
+15:00:06.727 [main] INFO  resources.WriteExcel - Adding value 41. Jira GET,POST API Scripting for creating bugsto (row, col) : (4, 2)
+15:00:06.727 [main] INFO  resources.WriteExcel - Adding value 3:42to (row, col) : (4, 3)
+15:00:06.728 [main] INFO  resources.WriteExcel - Adding value *Marker: Delete a Jira defect using a path parameter.to (row, col) : (4, 4)
+15:00:06.736 [main] INFO  oodaymy.VishayPage - Comments count found: 43
+15:00:06.866 [main] INFO  resources.WriteExcel - Sheet name: REST Assured
+15:00:06.866 [main] INFO  resources.WriteExcel - Current new row: 5
+15:00:06.866 [main] INFO  resources.WriteExcel - Adding value 5to (row, col) : (5, 0)
+15:00:06.866 [main] INFO  resources.WriteExcel - Adding value 8. Real world Example-Automating Jira API'sto (row, col) : (5, 1)
+15:00:06.867 [main] INFO  resources.WriteExcel - Adding value 42. Defining Path Parameters in Rest Assured code using Add Comment APIto (row, col) : (5, 2)
+15:00:06.867 [main] INFO  resources.WriteExcel - Adding value 10:13to (row, col) : (5, 3)
+15:00:06.867 [main] INFO  resources.WriteExcel - Adding value *Information: If you add a particular path parameter after the given() method, then use it in the resource within curly braces {} to replace it with the actual pathParam value at runtime.
+E.g.
+RestAssured.baseURI = "https://ronak-gavandi.atlassian.net";
+Response resp = given()
+.pathParam("key", "10101")
+.header("Content-Type", "application/json")
+.body("<payload-json>")
+.when()
+.post("/rest/api/2/issue/{key}/comment")
+.then()
+.assertThat().statusCode(201)
+.extract().response();to (row, col) : (5, 4)
+15:00:06.886 [main] INFO  oodaymy.VishayPage - Comments count found: 43
+15:00:07.010 [main] INFO  resources.WriteExcel - Sheet name: REST Assured
+15:00:07.010 [main] INFO  resources.WriteExcel - Current new row: 6
+15:00:07.011 [main] INFO  resources.WriteExcel - Adding value 6to (row, col) : (6, 0)
+15:00:07.012 [main] INFO  resources.WriteExcel - Adding value 8. Real world Example-Automating Jira API'sto (row, col) : (6, 1)
+15:00:07.012 [main] INFO  resources.WriteExcel - Adding value 42. Defining Path Parameters in Rest Assured code using Add Comment APIto (row, col) : (6, 2)
+15:00:07.013 [main] INFO  resources.WriteExcel - Adding value 6:11to (row, col) : (6, 3)
+15:00:07.013 [main] INFO  resources.WriteExcel - Adding value *Information: Library to execute the given() method from a static package -
+import static io.restassured.RestAssured.*;to (row, col) : (6, 4)
+15:00:07.031 [main] INFO  oodaymy.VishayPage - Comments count found: 43
+15:00:07.170 [main] INFO  resources.WriteExcel - Sheet name: REST Assured
+15:00:07.170 [main] INFO  resources.WriteExcel - Current new row: 7
+15:00:07.171 [main] INFO  resources.WriteExcel - Adding value 7to (row, col) : (7, 0)
+15:00:07.171 [main] INFO  resources.WriteExcel - Adding value 8. Real world Example-Automating Jira API'sto (row, col) : (7, 1)
+15:00:07.172 [main] INFO  resources.WriteExcel - Adding value 43. Importance of Session Filter cookie in Rest Assured Codeto (row, col) : (7, 2)
+15:00:07.172 [main] INFO  resources.WriteExcel - Adding value 3:15to (row, col) : (7, 3)
+15:00:07.173 [main] INFO  resources.WriteExcel - Adding value *Information: Use of session filter in cookie based basic authentication only -
+E.g.
+SessionFilter session = new SessionFilter();
+given()
+.header("Content-Type", "application/json")
+.body("<json-body-with-username-password>")
+.filter(session) // capture the cookie based session here
+.when()
+.post("/rest/auth/1/session")
+.then()
+.extract().response();
+
+RestAssured.baseURI = "https://ronak-gavandi.atlassian.net";
+Response resp = given()
+.pathParam("key", "10101")
+.header("Content-Type", "application/json")
+.body("<payload-json>")
+.filter(session) // use the same cookie based session here
+.when()
+.post("/rest/api/2/issue/{key}/comment")
+.then()
+.assertThat().statusCode(201)
+.extract().response();to (row, col) : (7, 4)

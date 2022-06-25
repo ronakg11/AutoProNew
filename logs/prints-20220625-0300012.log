@@ -1,0 +1,41 @@
+15:00:12.255 [main] INFO  resources.WriteExcel - Adding value 22to (row, col) : (22, 0)
+15:00:12.257 [main] INFO  resources.WriteExcel - Adding value 9. Handling Google/Facebook oauth 2.0 Authorization Grant typesto (row, col) : (22, 1)
+15:00:12.257 [main] INFO  resources.WriteExcel - Adding value 51. Understand Grant Type Authorization flow with real time exampleto (row, col) : (22, 2)
+15:00:12.257 [main] INFO  resources.WriteExcel - Adding value 16:56to (row, col) : (22, 3)
+15:00:12.258 [main] INFO  resources.WriteExcel - Adding value *Information: If the Access Token is expired, the client application will ask you to login with Google again to generate another Access Token. If the user tries to make some purchase on the client application without logging in, he will get an error saying authentication failed since there's no Access Token. The AD team will ask you to generate Access Token - that's when you execute the entire flow to complete the action.to (row, col) : (22, 4)
+15:00:12.267 [main] INFO  oodaymy.VishayPage - Comments count found: 43
+15:00:12.384 [main] INFO  resources.WriteExcel - Sheet name: REST Assured
+15:00:12.384 [main] INFO  resources.WriteExcel - Current new row: 23
+15:00:12.384 [main] INFO  resources.WriteExcel - Adding value 23to (row, col) : (23, 0)
+15:00:12.384 [main] INFO  resources.WriteExcel - Adding value 9. Handling Google/Facebook oauth 2.0 Authorization Grant typesto (row, col) : (23, 1)
+15:00:12.384 [main] INFO  resources.WriteExcel - Adding value 51. Understand Grant Type Authorization flow with real time exampleto (row, col) : (23, 2)
+15:00:12.385 [main] INFO  resources.WriteExcel - Adding value 11:03to (row, col) : (23, 3)
+15:00:12.385 [main] INFO  resources.WriteExcel - Adding value *Information: OAuth 2.0 flow explained:
+1. User signs into the Google & the sign in details will be sent to the Google authorization server, and on successful sign in, Google will send an authorization code (like an OTP) back to the client (Udemy).
+2. The client will then use the authorization code, Client ID, Client Secret ID & Scope to hit Google's resources server and authenticate itself on it and use the Scope to tell what user details are required from the server.
+3. Google's resources server will authenticate the client and validate the authorization code and check what user profile it is associated with.
+4. Google will then extract the user's info (e.g. first name, last name, email as per the Scope) and send it with an Access Token back to the client.
+5. The user will be redirected to the client and the Access Token will be stored in the user's browser cookie.
+6. This Access Token will be attached to every action the user takes on the client application & the client will use the info associated with the Access Token to send out email confirmation to the user.to (row, col) : (23, 4)
+15:00:12.393 [main] INFO  oodaymy.VishayPage - Comments count found: 43
+15:00:12.502 [main] INFO  resources.WriteExcel - Sheet name: REST Assured
+15:00:12.502 [main] INFO  resources.WriteExcel - Current new row: 24
+15:00:12.502 [main] INFO  resources.WriteExcel - Adding value 24to (row, col) : (24, 0)
+15:00:12.503 [main] INFO  resources.WriteExcel - Adding value 9. Handling Google/Facebook oauth 2.0 Authorization Grant typesto (row, col) : (24, 1)
+15:00:12.503 [main] INFO  resources.WriteExcel - Adding value 51. Understand Grant Type Authorization flow with real time exampleto (row, col) : (24, 2)
+15:00:12.504 [main] INFO  resources.WriteExcel - Adding value 9:16to (row, col) : (24, 3)
+15:00:12.504 [main] INFO  resources.WriteExcel - Adding value *Information: When you choose another authentication service to login e.g. Google, the URL generated is unique to every application (Udemy in this case) and you can see the Client ID in the URL, which is public, but cannot see the Client Secret ID which is not public.to (row, col) : (24, 4)
+15:00:12.515 [main] INFO  oodaymy.VishayPage - Comments count found: 43
+15:00:12.642 [main] INFO  resources.WriteExcel - Sheet name: REST Assured
+15:00:12.642 [main] INFO  resources.WriteExcel - Current new row: 25
+15:00:12.642 [main] INFO  resources.WriteExcel - Adding value 25to (row, col) : (25, 0)
+15:00:12.643 [main] INFO  resources.WriteExcel - Adding value 9. Handling Google/Facebook oauth 2.0 Authorization Grant typesto (row, col) : (25, 1)
+15:00:12.643 [main] INFO  resources.WriteExcel - Adding value 51. Understand Grant Type Authorization flow with real time exampleto (row, col) : (25, 2)
+15:00:12.644 [main] INFO  resources.WriteExcel - Adding value 5:57to (row, col) : (25, 3)
+15:00:12.645 [main] INFO  resources.WriteExcel - Adding value *Information: Even before implementing OAuth 2.0 authentication, a client (e.g. Udemy) application requests permission to register their application's authentication service on say Google's authorization server and Google assigns the client application a Client ID and a Client Secret ID.
+Client ID - uniquely identifies a website on Google's server e.g. Udemy will have a unique Client ID assigned to it by Google.
+Client Secret ID - is like the client's password.
+(If you're working for a client implementing OAuth 2.0, just ask the AD team what our Client ID and Client Secret ID is).
+Resource Owner - is the user / person trying to login to the client's website.
+Resource Server - is Google, where all the resources (user info e.g. first name, last name, email etc.) are stored.
+Authorization Server - is also Google who will just authorize the user account (Resources server is different from Authorization server).to (row, col) : (25, 4)
