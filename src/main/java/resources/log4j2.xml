@@ -4,7 +4,7 @@
 		<Property name="basePath">./logs</Property>
 	</Properties>
 	<Appenders>
-		<RollingFile name="file" fileName="${basePath}/prints-%d{yyyyMMdd-hhmmsss}.log"
+		<RollingFile name="file" fileName="${basePath}/prints.log"
 			filePattern="${basePath}/prints-%d{yyyyMMdd-hhmmsss}.log">
 			<PatternLayout
 				pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
@@ -16,8 +16,8 @@
 		</Console>
 	</Appenders>
 	<Loggers>
-		<Logger name="Academy.AssertTitleAndNavigationPaneTest" level="debug" additivity="false">
-			<AppenderRef ref="console" />
+		<Logger name="commentsProject.Oodaymy" level="debug" additivity="false">
+			<AppenderRef ref="file" />
 		</Logger>
 		<Root level="info">
 			<AppenderRef ref="file" />
