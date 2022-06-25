@@ -23,7 +23,7 @@ public class Oodaymy extends TestBase {
 	}
 
 	@Test
-	public void basePageNavigation(String usrNm, String pwd, String usrType) throws IOException, InterruptedException {
+	public void extractComments() throws IOException, InterruptedException {
 		driver.get(prop.getProperty("link1"));
 		log.info("URL opened");
 
@@ -35,8 +35,6 @@ public class Oodaymy extends TestBase {
 		for(int i = 0; i < v1.getCommentsCount(); i++) {
 			
 		}
-		
-		
 	}
 
 	@AfterTest
