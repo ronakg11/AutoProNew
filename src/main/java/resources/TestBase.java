@@ -35,34 +35,9 @@ public class TestBase {
 		// the maven command "mvn test -Dbrowser=chrome"
 		String browserName = System.getProperty("browser");
 		String driverPath = System.getProperty("user.dir") + "/drivers/";
-<<<<<<< HEAD
+		log.debug("driver path is : " + driverPath);
 		browserName = prop.getProperty("browser");
-
-		switch (browserName) {
-		case "chrome":
-			System.setProperty("webdriver.chrome.driver", driverPath + "chromedriver");
-			driver = new ChromeDriver();
-			break;
-		case "chrome-background":
-			System.setProperty("webdriver.chrome.driver", driverPath + "chromedriver");
-			ChromeOptions cOpt = new ChromeOptions();
-			cOpt.addArguments("headless");
-			driver = new ChromeDriver(cOpt);
-			break;
-		case "firefox":
-			System.setProperty("webdriver.firefox.driver", driverPath + "geckodriver");
-			driver = new FirefoxDriver();
-			break;
-		case "safari":
-			System.setProperty("webdriver.safari.driver", "/usr/bin/safaridriver");
-			driver = new SafariDriver();
-			break;
-		default:
-			System.out.println("The browser you selected is not compatible with this framework");
-=======
-		log.debug("driver path : " + driverPath);
-		browserName = prop.getProperty("browser");
-		log.debug("browser set to : " + browserName);
+		log.debug("browser name is : " + browserName);
 		
 		try {
 			switch (browserName) {
@@ -89,7 +64,6 @@ public class TestBase {
 			}
 		} catch(Exception e) {
 			log.fatal("Driver not initialized");
->>>>>>> develop
 		}
 
 		driver.manage().window().maximize();

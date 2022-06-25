@@ -16,11 +16,7 @@
 		</Console>
 	</Appenders>
 	<Loggers>
-<<<<<<< HEAD
-		<Logger name="Academy.AssertTitleAndNavigationPaneTest" level="debug" additivity="false">
-=======
 		<Logger name="commentsProject.Oodaymy" level="debug" additivity="false">
->>>>>>> develop
 			<AppenderRef ref="file" />
 		</Logger>
 		<Root level="info">
