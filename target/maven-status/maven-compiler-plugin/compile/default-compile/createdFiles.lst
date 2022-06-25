@@ -1,13 +1,13 @@
-apartments/com/LandingPage.class
 pages/ForgotPasswordPage.class
 resources/ExtentReporterNG.class
 linkedInPageObjects/DebasishPatrasActivityPage.class
 resources/JDBCConnection.class
 google/com/GoogleSearchResultsPage.class
-resources/TestBase.class
 apartments/com/ResultsPage.class
 cricInfoPages/SecondTest.class
 google/com/GoogleHomePage.class
 resources/ExcelUtil.class
 pages/LandingPage.class
+apartments/com/LandingPage.class
+resources/TestBase.class
 pages/LoginPage.class
