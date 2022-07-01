@@ -1,14 +1,36 @@
-15:00:15.040 [main] INFO  resources.WriteExcel - Current new row: 43
-15:00:15.042 [main] INFO  resources.WriteExcel - Adding value 43to (row, col) : (43, 0)
-15:00:15.043 [main] INFO  resources.WriteExcel - Adding value 13. Understand Request and Response Spec Builders in Rest Assuredto (row, col) : (43, 1)
-15:00:15.043 [main] INFO  resources.WriteExcel - Adding value 73. Significance of Spec Builders in Rest Assured Rec 12-19-19 5(builderDoc)to (row, col) : (43, 2)
-15:00:15.045 [main] INFO  resources.WriteExcel - Adding value 4:28to (row, col) : (43, 3)
-15:00:15.047 [main] INFO  resources.WriteExcel - Adding value *Information: Setting up parameters using RequestSpecBuilder -
-e.g.
-RestAssured.baseURI = "XXXX" becomes .setBaseUri("XXXX")
-.queryParam("key", "qaclickacademy") becomes .addQueryParam("key", "qaclickacademy")
-.header("Content-Type", "application/json") becomes .setContentType(ContentType.JSON)to (row, col) : (43, 4)
-15:00:15.064 [main] INFO  oodaymy.VishayPage - Comments count found: 43
-15:00:17.079 [main] INFO  commentsProject.OodaymyNew - Driver closed
-15:00:17.428 [main] INFO  resources.WriteExcel - Workbook closed
-15:00:17.428 [main] INFO  commentsProject.OodaymyNew - Workbook closed
+20220626-18:33:09.574 [main] INFO  testCases.AssertTitleAndNavigationPaneTest - Driver is initialized
+20220626-18:33:14.073 [main] INFO  testCases.AssertTitleAndNavigationPaneTest - URL opened
+20220626-18:33:14.132 [main] INFO  testCases.AssertTitleAndNavigationPaneTest - LandingPage - Object created
+20220626-18:33:19.343 [main] INFO  testCases.AssertTitleAndNavigationPaneTest - Driver closed
+20220626-18:33:48.446 [main] INFO  resources.TestBase - _20220626_063348_442
+20220626-18:33:53.804 [TestNG-tests-2] INFO  testCases.AssertTitleAndNavigationPaneTest - Driver is initialized
+20220626-18:33:54.443 [TestNG-tests-1] INFO  testCases.HomePageAndLoginTest - Driver is initialized
+20220626-18:33:54.502 [TestNG-tests-1] INFO  resources.Listeners - Test case LoginTest started execution
+20220626-18:33:59.298 [TestNG-tests-2] INFO  testCases.AssertTitleAndNavigationPaneTest - URL opened
+20220626-18:33:59.310 [TestNG-tests-2] INFO  resources.Listeners - Test case basePageNavigation started execution
+20220626-18:33:59.353 [TestNG-tests-2] INFO  testCases.AssertTitleAndNavigationPaneTest - LandingPage - Object created
+20220626-18:33:59.498 [TestNG-tests-2] INFO  resources.Listeners - Test case basePageNavigation failed
+20220626-18:33:59.508 [TestNG-tests-1] INFO  testCases.HomePageAndLoginTest - URL opened
+20220626-18:33:59.509 [TestNG-tests-1] INFO  testCases.HomePageAndLoginTest - LandingPage - Object created
+20220626-18:34:00.609 [TestNG-tests-2] INFO  resources.TestBase - _20220626_063400_609
+20220626-18:34:00.609 [TestNG-tests-2] INFO  resources.TestBase - screenshot path:/Users/ronakgavandi/My Drive/Automation Material/Git Repository/AutoPro/reports/screenshots/basePageNavigation_20220626_063400_609.png
+20220626-18:34:01.926 [TestNG-tests-1] INFO  resources.Listeners - Test case LoginTest failed
+20220626-18:34:04.677 [TestNG-tests-1] INFO  resources.TestBase - _20220626_063404_676
+20220626-18:34:04.677 [TestNG-tests-1] INFO  resources.TestBase - screenshot path:/Users/ronakgavandi/My Drive/Automation Material/Git Repository/AutoPro/reports/screenshots/LoginTest_20220626_063404_676.png
+20220626-18:36:55.610 [TestNG-tests-2] INFO  testCases.AssertTitleAndNavigationPaneTest - Driver closed
+20220626-18:37:01.962 [TestNG-tests-1] INFO  resources.Listeners - Test case LoginTest started execution
+20220626-18:37:03.958 [TestNG-tests-1] INFO  testCases.HomePageAndLoginTest - URL opened
+20220626-18:37:03.959 [TestNG-tests-1] INFO  testCases.HomePageAndLoginTest - LandingPage - Object created
+20220626-18:37:06.241 [TestNG-tests-1] INFO  testCases.HomePageAndLoginTest - LandingPage - Clicked login & LoginPage - object created
+20220626-18:37:06.443 [TestNG-tests-1] INFO  testCases.HomePageAndLoginTest - LoginPage - email id entered
+20220626-18:37:06.553 [TestNG-tests-1] INFO  testCases.HomePageAndLoginTest - LoginPage - password entered
+20220626-18:37:06.663 [TestNG-tests-1] INFO  testCases.HomePageAndLoginTest - LoginPage - tried logging in for user type - Restricted User
+20220626-18:37:07.952 [TestNG-tests-1] INFO  testCases.HomePageAndLoginTest - Navigated back to the LoginPage
+20220626-18:37:12.981 [TestNG-tests-1] INFO  resources.Listeners - Test case LoginTest failed
+20220626-18:37:13.430 [TestNG-tests-1] INFO  resources.TestBase - _20220626_063713_430
+20220626-18:37:13.430 [TestNG-tests-1] INFO  resources.TestBase - screenshot path:/Users/ronakgavandi/My Drive/Automation Material/Git Repository/AutoPro/reports/screenshots/LoginTest_20220626_063713_430.png
+20220626-18:37:22.361 [TestNG-tests-1] INFO  testCases.HomePageAndLoginTest - Driver closed
+20220627-17:09:19.373 [main] INFO  testCases.AssertTitleAndNavigationPaneTest - Driver is initialized
+20220627-17:09:28.131 [main] INFO  testCases.AssertTitleAndNavigationPaneTest - URL opened
+20220627-17:09:28.190 [main] INFO  testCases.AssertTitleAndNavigationPaneTest - LandingPage - Object created
+20220627-17:09:33.461 [main] INFO  testCases.AssertTitleAndNavigationPaneTest - Driver closed

@@ -22,7 +22,7 @@ public class OodaymyNew {
 	@BeforeClass
 	public void initialize() throws IOException {
 		// Run the following command in terminal first
-		// /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --remote-debugging-port=9222 --user-data-dir="/Users/ronakgavandi/Downloads
+		// /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --remote-debugging-port=9222 --user-data-dir="/Users/ronakgavandi/Downloads/Nimma
 		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/drivers/chromedriver");
 		ChromeOptions o = new ChromeOptions();
 		int port = 53754;

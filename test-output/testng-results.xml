@@ -1,29 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-25T14:59:47 PDT" name="Default suite" finished-at="2022-06-25T15:00:17 PDT" duration-ms="29778">
+  <suite started-at="2022-06-27T23:28:35 PDT" name="Default suite" finished-at="2022-06-27T23:28:52 PDT" duration-ms="17813">
     <groups>
     </groups>
-    <test started-at="2022-06-25T14:59:47 PDT" name="Default test" finished-at="2022-06-25T15:00:17 PDT" duration-ms="29778">
-      <class name="commentsProject.OodaymyNew">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:commentsProject.OodaymyNew@6127a7e]" started-at="2022-06-25T14:59:47 PDT" name="initialize" finished-at="2022-06-25T14:59:50 PDT" duration-ms="2952" status="PASS">
+    <test started-at="2022-06-27T23:28:35 PDT" name="Default test" finished-at="2022-06-27T23:28:52 PDT" duration-ms="17813">
+      <class name="Other.CartTestCases">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Other.CartTestCases@46268f08]" started-at="2022-06-27T23:28:35 PDT" name="initialize" finished-at="2022-06-27T23:28:46 PDT" duration-ms="10980" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="extractCommentsC1()[pri:0, instance:commentsProject.OodaymyNew@6127a7e]" started-at="2022-06-25T14:59:50 PDT" name="extractCommentsC1" finished-at="2022-06-25T15:00:03 PDT" duration-ms="12543" status="PASS">
+        <test-method signature="basePageNavigation()[pri:0, instance:Other.CartTestCases@46268f08]" started-at="2022-06-27T23:28:46 PDT" name="basePageNavigation" finished-at="2022-06-27T23:28:47 PDT" duration-ms="1576" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- extractCommentsC1 -->
-        <test-method signature="extractCommentsC2()[pri:0, instance:commentsProject.OodaymyNew@6127a7e]" started-at="2022-06-25T15:00:03 PDT" name="extractCommentsC2" finished-at="2022-06-25T15:00:15 PDT" duration-ms="11839" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- extractCommentsC2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:commentsProject.OodaymyNew@6127a7e]" started-at="2022-06-25T15:00:15 PDT" name="tearDown" finished-at="2022-06-25T15:00:17 PDT" duration-ms="2351" status="PASS">
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Other.CartTestCases@46268f08]" started-at="2022-06-27T23:28:47 PDT" name="tearDown" finished-at="2022-06-27T23:28:52 PDT" duration-ms="5174" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- commentsProject.OodaymyNew -->
+      </class> <!-- Other.CartTestCases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

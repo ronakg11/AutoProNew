@@ -5,7 +5,6 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
-import java.util.Collections;
 import java.util.Date;
 import java.util.Properties;
 import org.apache.commons.io.FileUtils;
@@ -14,18 +13,12 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.remote.Command;
-import org.openqa.selenium.remote.CommandExecutor;
-import org.openqa.selenium.remote.HttpCommandExecutor;
-import org.openqa.selenium.remote.RemoteWebDriver;
-import org.openqa.selenium.remote.Response;
-import org.openqa.selenium.remote.SessionId;
 import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.seleniumhq.jetty9.util.Fields.Field;
 
 public class TestBase {
 	public WebDriver driver;
@@ -76,19 +69,19 @@ public class TestBase {
 
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-		wait = new WebDriverWait(driver, Duration.ofSeconds(60));
+		wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 		return driver;
 	}
 
 	public String takeScreenshot(WebDriver driver, String testCaseName) throws IOException {
 		TakesScreenshot screenShot = (TakesScreenshot) driver;
-		File screenShotFile = screenShot.getScreenshotAs(OutputType.FILE);
+		File screenshotFile = screenShot.getScreenshotAs(OutputType.FILE);
 
-		String screenShotpath = System.getProperty("user.dir") + "/reports/screenshots/" + testCaseName
+		String screenshotPath = System.getProperty("user.dir") + "/reports/screenshots/" + testCaseName
 				+ getCurrentTimeStamp() + ".png";
-		System.out.println(screenShotpath);
-		FileUtils.copyFile(screenShotFile, new File(screenShotpath));
-		return screenShotpath;
+		log.info("screenshot path: " + screenshotPath);
+		FileUtils.copyFile(screenshotFile, new File(screenshotPath));
+		return screenshotPath;
 	}
 
 	public static Properties loadPropertiesFile() throws IOException {
@@ -106,5 +99,18 @@ public class TestBase {
 		String date = simpleDateFormat.format(new Date());
 		log.info(date);
 		return date;
+	}
+	
+	public String webElementScreenShot(WebElement webelement, String testCaseName) throws IOException {
+		TakesScreenshot screenShot = (TakesScreenshot) webelement;
+		File screenshotFile = screenShot.getScreenshotAs(OutputType.FILE);
+
+		String screenshotPath = System.getProperty("user.dir") + "/reports/screenshots/webelements/"
+				+ webelement.toString() + "_" + testCaseName
+				+ getCurrentTimeStamp() + ".png";
+		
+		log.info("webelement screenshot path: " + screenshotPath);
+		FileUtils.copyFile(screenshotFile, new File(screenshotPath));
+		return screenshotPath;
 	}
 }
